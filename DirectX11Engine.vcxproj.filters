@@ -5,10 +5,26 @@
     <ClCompile Include="systemclass.cpp" />
     <ClCompile Include="inputclass.cpp" />
     <ClCompile Include="applicationclass.cpp" />
+    <ClCompile Include="d3dclass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="systemclass.h" />
     <ClInclude Include="inputclass.h" />
     <ClInclude Include="applicationclass.h" />
+    <ClInclude Include="d3dclass.h" />
+    <ClInclude Include="colorshaderclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="color.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="color.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d6ae19b6-efc1-473c-aedd-ae0184743342}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
